@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOOM CODEX | L'Encyclopédie</title>
+    <link href="data:image/png;base64,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" rel="stylesheet">
+    <style>
+        :root {
+            --doom-red: #ff0000;
+            --uac-blue: #1c81df;
+            --bg-body: #050505;
+            --panel-bg: #111111;
+            --border: #2a2a2a;
+        }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #000; }
+        ::-webkit-scrollbar-thumb { background: var(--doom-red); }
+
+        body {
+            background-color: var(--bg-body);
+            color: #d1d1d1;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 { font-family: 'Oswald', sans-serif; text-transform: uppercase; color: #fff; letter-spacing: 1px; }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), 
+                        url('https://upload.wikimedia.org/wikipedia/commons/e/e4/Doom_cover_art.jpg') center/cover;
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--doom-red);
+        }
+
+        .logo {
+            max-width: 400px;
+            filter: drop-shadow(0 0 15px var(--doom-red));
+        }
+
+        nav {
+            background: #000;
+            border-bottom: 2px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+
+        .nav-links {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        nav a:hover { color: var(--doom-red); text-shadow: 0 0 10px var(--doom-red); }
+
+        .wiki-wrapper {
+            max-width: 1300px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 30px;
+            padding: 0 20px;
+        }
+
+        article {
+            background: var(--panel-bg);
+            padding: 40px;
+            border: 1px solid var(--border);
+        }
+
+        .section-header {
+            border-left: 5px solid var(--doom-red);
+            padding-left: 15px;
+            margin: 50px 0 20px;
+        }
+
+        .wiki-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 20px 0;
+        }
+
+        .card {
+            background: #000;
+            border: 1px solid var(--border);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .card:hover { border-color: var(--doom-red); transform: translateY(-5px); }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 2px solid var(--doom-red);
+            background: #111;
+        }
+
+        .card-content { padding: 15px; }
+        .card-content h3 { font-size: 1.2rem; margin-bottom: 10px; color: var(--doom-red); }
+
+        .infobox {
+            background: #0a0a0a;
+            border: 2px solid var(--doom-red);
+            padding: 20px;
+            position: sticky;
+            top: 100px;
+        }
+
+        .infobox h2 { text-align: center; font-size: 1.8rem; margin-bottom: 20px; }
+        .infobox img { width: 100%; border: 1px solid #333; margin-bottom: 20px; }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #222;
+            font-size: 0.9rem;
+        }
+
+        .info-row strong { color: var(--doom-red); }
+
+        .console {
+            background: #000;
+            border: 1px solid var(--uac-blue);
+            color: var(--uac-blue);
+            padding: 20px;
+            font-family: 'Share Tech Mono', monospace;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            background: #000;
+            border-top: 4px solid var(--doom-red);
+            margin-top: 60px;
+        }
+
+        @media (max-width: 900px) {
+            .wiki-wrapper { grid-template-columns: 1fr; }
+            .infobox { position: static; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="c:\Users\Verso\Downloads\pngegg.png" alt="DOOM LOGO" class="logo">
+    <p style="margin-top: 20px; font-weight: bold; letter-spacing: 3px;">DATABASE ENCYCLOPÉDIQUE DE L'UAC</p>
+</header>
+
+<nav>
+    <div class="nav-links">
+        <a href="#saga">La Saga</a>
+        <a href="#demons">Bestiaire</a>
+        <a href="#arsenal">Arsenal</a>
+        <a href="#lore">Lore</a>
+    </div>
+</nav>
+
+<div class="wiki-wrapper">
+    
+    <main>
+        <article>
+            <div class="console">
+                > ACCÈS AUTORISÉ : CODEX_ENFER <br>
+                > CHARGEMENT DU DOSSIER : DOOM_SLAYER.DAT <br>
+                > RIP AND TEAR...
+            </div>
+
+            <h1>L'Univers de DOOM</h1>
+            <p>
+                <strong>DOOM</strong> est le pilier du jeu de tir à la première personne. Depuis 1993, la série plonge les joueurs dans un enfer technologique et organique où la survie dépend uniquement de la puissance de feu et de la rapidité d'exécution,il tien aussi un challenge nommé Can It Run DOOM ou le but est de faire tourner le jeu Doom 1 sur n'importe quel type de machine meme un test de grossesse.
+            </p>
+
+            <h2 id="saga" class="section-header">Chronologie des Opus</h2>
+            <div class="wiki-grid">
+                <div class="card">
+                    <img src="d:\Pixel-Sundays-DOOM-1.webp" alt="Doom 1993">
+                    <div class="card-content">
+                        <h3>DOOM (1993)</h3>
+                        <p>L'originel qui a révolutionné le monde du FPS avec wolfenstein 3D,jeu plutot simple mais assez fort.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="d:\D3_Revenant_HERO_1920x870.webp" alt="Doom 3">
+                    <div class="card-content">
+                        <h3>DOOM 3</h3>
+                        <p>Première opus doom à être basé sur de la 3D,le jeu prend une tournure horrifique moin d'action et plutot ressemblant à Half-life.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="d:\1607593752-5929-card.webp" alt="Doom Eternal">
+                    <div class="card-content">
+                        <h3>DOOM ETERNAL</h3>
+                        <p>L'expérience de combat ultime et ultra-nerveuse centré sur la rapidité et la nervosité un bon défouloir.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="demons" class="section-header">Bestiaire : Les Démons</h2>
+            <div class="wiki-grid">
+                <div class="card">
+                    <img src="c:\Users\Verso\Downloads\pngegg (3).png" alt="Cacodemon">
+                    <div class="card-content">
+                        <h3>Cacodemon</h3>
+                        <p>L'icône de l'enfer. Flotte et crache des boules de foudre. Point faible: Une grenade dans le bec.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="c:\Users\Verso\Downloads\image-removebg-preview (1).png" alt="Cyberdemon">
+                    <div class="card-content">
+                        <h3>Cyberdemon</h3>
+                        <p>Le boss colossal, mélange terrifiant de chair et de robotique il n'a pas de point faible mise à part sa taille dans les derniers opus.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="c:\Users\Verso\Downloads\image-removebg-preview (3).png" alt="Imp">
+                    <div class="card-content">
+                        <h3>L'Impie (Imp)</h3>
+                        <p>Agile et omniprésent, il est le premier rempart démoniaque.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="arsenal" class="section-header">Arsenal : Technologie UAC</h2>
+            <div class="wiki-grid">
+                <div class="card">
+                    <img src="c:\Users\Verso\Downloads\image-removebg-preview (8).png" alt="Super Shotgun">
+                    <div class="card-content">
+                        <h3>Super Shotgun</h3>
+                        <p>L'arme de prédilection du Slayer pour le combat rapproché.Il peu aussi allonger un grapin rétractable.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="c:\Users\Verso\Downloads\image-removebg-preview (5).png" alt="BFG">
+                    <div class="card-content">
+                        <h3>BFG 9000</h3>
+                        <p>Big Fucking Gun. Une seule décharge suffit à raser une zone rien d'autre a dire.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <aside>
+        <div class="infobox">
+            <h2>DOOM SLAYER</h2>
+            <img src="c:\Users\Verso\Downloads\image-removebg-preview (4).png" alt="Doomguy">
+            <div class="info-row"><strong>Statut</strong> <span>Divinité</span></div>
+            <div class="info-row"><strong>Alias</strong> <span>Doomguy / Slayer</span></div>
+            <div class="info-row"><strong>Arme favorite</strong> <span>Super shotgun</span></div>
+            <div class="info-row"><strong>Objectif</strong> <span>Tuer tout les démons</span></div>
+            <div style="margin-top: 20px; background: #222; padding: 10px; font-size: 0.8rem; text-align: center; border-left: 2px solid var(--doom-red);">
+                "La seul chose qu'ils craignent, c'est lui."
+            </div>
+        </div>
+    </aside>
+
+</div>
+
+<footer>
+    <h2 style="color: var(--doom-red);">SYSTEME UAC : Union Aerospace Corporation</h2>
+    <p>DOOM WIKI - ARCHIVE PERSONNELLE DE FAN</p>
+    <p style="opacity: 0.5;">Toutes les images sont garanties fonctionnelles.</p>
+</footer>
+
+</body>
+</html>
